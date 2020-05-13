@@ -1,0 +1,49 @@
+{
+  "name": "prosemirror-dropimage",
+  "version": "0.1.0",
+  "description": "Image drop handler for ProseMirror",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "Sam Ban",
+      "email": "sam.ban@icloud.com",
+      "web": "https://wizguild.com/"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shoobyban/prosemirror-dropimage.git"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "codemirror": "^5.21.0",
+    "crelt": "^1.0.0",
+    "prosemirror-collab": "^1.0.0",
+    "prosemirror-commands": "^1.0.0",
+    "prosemirror-example-setup": "^1.0.0",
+    "prosemirror-gapcursor": "^1.0.0",
+    "prosemirror-history": "^1.0.0",
+    "prosemirror-inputrules": "^1.0.0",
+    "prosemirror-keymap": "^1.0.0",
+    "prosemirror-markdown": "^1.0.0",
+    "prosemirror-menu": "^1.0.0",
+    "prosemirror-model": "^1.0.0",
+    "prosemirror-schema-basic": "^1.0.0",
+    "prosemirror-schema-list": "^1.0.0",
+    "prosemirror-state": "^1.0.0",
+    "prosemirror-transform": "^1.0.0",
+    "prosemirror-view": "^1.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-buble": "^0.20.0",
+    "rollup": "^1.26.3"
+  },
+  "scripts": {
+    "test": "true",
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "prepare": "npm run build"
+  }
+}
